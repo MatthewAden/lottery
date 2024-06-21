@@ -1,0 +1,167 @@
+# 命令执行 docker-compose -f docker-compose-environment.yml up -d
+version: '3.9'
+services:
+  mysql:
+    image: mysql:8.0.32
+    container_name: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: 123456
+    networks:
+      - my-network
+    depends_on:
+      - mysql-job-dbdata
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./mysql/sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+      start_period: 15s
+    volumes_from:
+      - mysql-job-dbdata
+
+  # 自动加载数据
+  mysql-job-dbdata:
+    image: alpine:3.18.2
+    container_name: mysql-job-dbdata
+    volumes:
+      - /var/lib/mysql
+
+  # phpmyadmin https://hub.docker.com/_/phpmyadmin
+#  phpmyadmin:
+#    image: phpmyadmin:5.2.1
+#    container_name: phpmyadmin
+#    hostname: phpmyadmin
+#    ports:
+#      - 8899:80
+#    environment:
+#      - PMA_HOST=mysql
+#      - PMA_PORT=3306
+#      - MYSQL_ROOT_PASSWORD=123456
+#    depends_on:
+#      mysql:
+#        condition: service_healthy
+#    networks:
+#      - my-network
+
+  # Redis
+  redis:
+    image: redis:6.2
+    container_name: redis
+    restart: always
+    hostname: redis
+    privileged: true
+    ports:
+      - 16379:6379
+    volumes:
+      - ./redis/redis.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      - my-network
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # RedisAdmin https://github.com/joeferner/redis-commander
+  # 账密 admin/admin
+#  redis-admin:
+#    image: spryker/redis-commander:0.8.0
+#    container_name: redis-admin
+#    hostname: redis-commander
+#    restart: always
+#    ports:
+#      - 8081:8081
+#    environment:
+#      - REDIS_HOSTS=local:redis:6379
+#      - HTTP_USER=admin
+#      - HTTP_PASSWORD=admin
+#      - LANG=C.UTF-8
+#      - LANGUAGE=C.UTF-8
+#      - LC_ALL=C.UTF-8
+#    networks:
+#      - my-network
+#    depends_on:
+#      redis:
+#        condition: service_healthy
+
+  # rabbitmq
+  # 账密 admin/admin
+  # rabbitmq-plugins enable rabbitmq_management
+#  rabbitmq:
+#    image: rabbitmq:3.12.9
+#    container_name: rabbitmq
+#    restart: always
+#    ports:
+#      - "5672:5672"
+#      - "15672:15672"
+#    environment:
+#      RABBITMQ_DEFAULT_USER: admin
+#      RABBITMQ_DEFAULT_PASS: admin
+#    command: rabbitmq-server
+#    volumes:
+#      - ./rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins
+
+  zookeeper:
+    image: zookeeper:3.9.0
+    container_name: zookeeper
+    restart: always
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=zookeeper:2888:3888;2181
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ALLOW_ANONYMOUS_LOGIN: yes
+      TZ: Asia/Shanghai
+    networks:
+      - my-network
+
+  kafka:
+    image: bitnami/kafka:3.7.0
+    container_name: kafka
+    volumes:
+      - /etc/localtime:/etc/localtime
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_CFG_LISTENERS: PLAINTEXT://:9092
+      KAFKA_CFG_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_CFG_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      ALLOW_PLAINTEXT_LISTENER: yes
+      KAFKA_MESSAGE_MAX_BYTES: "2000000"
+      KAFKA_ENABLE_KRAFT: no
+      JMX_PORT: 9999
+      TZ: Asia/Shanghai
+    depends_on:
+      - zookeeper
+    networks:
+      - my-network
+
+  kafka-eagle:
+    image: echo21bash/kafka-eagle:3.0.2
+    container_name: kafka-eagle
+    environment:
+      KAFKA_EAGLE_ZK_LIST: zookeeper:2181
+    volumes:
+      - ./kafka-eagle/system-config.properties:/opt/kafka-eagle/conf/system-config.properties
+    ports:
+      - "8048:8048"
+    depends_on:
+      - kafka
+    networks:
+      - my-network
+
+
+networks:
+  my-network:
+    driver: bridge

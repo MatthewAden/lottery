@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: lottery-app
+  profiles:
+    active: dev

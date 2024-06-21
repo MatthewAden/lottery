@@ -1,0 +1,72 @@
+24-03-14.12:23:06.936 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 10487 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.12:23:06.937 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.12:23:08.188 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.498 seconds (JVM running for 1.922)
+24-03-14.12:23:08.337 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.12:23:08.534 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.12:23:08.591 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.12:23:08.594 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:24:58.181 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 17722 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:24:58.181 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:24:59.389 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.614 seconds (JVM running for 2.184)
+24-03-14.14:24:59.530 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:24:59.760 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:24:59.841 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:24:59.847 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:26:26.605 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 18352 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:26:26.605 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:26:27.694 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.309 seconds (JVM running for 1.801)
+24-03-14.14:26:27.819 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:26:28.026 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:26:28.097 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:26:28.101 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:27:15.263 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 18716 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:27:15.264 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:27:16.348 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.316 seconds (JVM running for 1.736)
+24-03-14.14:27:16.475 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:27:16.673 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:27:16.739 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:27:16.743 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:29:28.607 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 19663 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:29:28.607 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:29:29.677 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.45 seconds (JVM running for 1.882)
+24-03-14.14:29:29.815 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:29:30.020 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:29:30.171 [main            ] INFO  StrategyDaoTest        - 测试结果：[{"strategyId":100001}]
+24-03-14.14:29:30.181 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:29:30.184 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:30:58.555 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20304 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:30:58.556 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:30:59.565 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.256 seconds (JVM running for 1.789)
+24-03-14.14:30:59.683 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:30:59.875 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:30:59.980 [main            ] INFO  StrategyDaoTest        - 测试结果：[{"strategyId":100001}]
+24-03-14.14:30:59.988 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:31:00.003 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:31:05.547 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20359 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:31:05.548 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:31:07.019 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.827 seconds (JVM running for 2.694)
+24-03-14.14:31:07.199 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:31:07.504 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:31:32.589 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s86ms).
+24-03-14.14:31:32.635 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:31:32.643 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.14:40:40.227 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 24431 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.14:40:40.228 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-14.14:40:41.460 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 1.635 seconds (JVM running for 2.204)
+24-03-14.14:40:41.594 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-14.14:40:41.843 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-14.14:40:41.964 [main            ] INFO  StrategyDaoTest        - 测试结果：[{"strategyId":100001}]
+24-03-14.14:40:41.970 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-14.14:40:41.982 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-14.21:33:46.474 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 45952 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-14.21:33:46.474 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-03-14.21:33:47.109 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-14.21:33:47.112 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-14.21:33:47.129 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+24-03-14.21:33:47.627 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-14.21:33:47.666 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-14.21:33:47.788 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-14.21:33:47.797 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-14.21:33:49.243 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-14.21:33:49.281 [main            ] INFO  ApiTest                - Started ApiTest in 3.119 seconds (JVM running for 3.863)
+24-03-14.21:33:49.629 [main            ] INFO  ApiTest                - 测试结果:101

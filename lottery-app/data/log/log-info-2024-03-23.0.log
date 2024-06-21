@@ -1,0 +1,396 @@
+24-03-23.13:29:08.918 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 77377 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:29:08.918 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:29:09.564 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:29:09.570 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:29:09.603 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-03-23.13:29:10.406 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:29:10.455 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:29:10.588 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:29:10.597 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:29:11.407 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:29:11.448 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.784 seconds (JVM running for 3.213)
+24-03-23.13:29:26.687 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 77514 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:29:26.688 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:29:27.259 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:29:27.261 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:29:27.277 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:29:27.968 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:29:28.024 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:29:28.165 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:29:28.177 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:29:29.475 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:29:29.515 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.117 seconds (JVM running for 4.125)
+24-03-23.13:29:59.068 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 77759 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:29:59.068 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:29:59.583 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:29:59.585 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:29:59.608 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-23.13:30:00.307 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:30:00.364 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:30:00.509 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:00.522 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:01.398 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:30:01.439 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.678 seconds (JVM running for 3.481)
+24-03-23.13:30:11.828 [main            ] INFO  StrategyDaoTest        - Starting StrategyDaoTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 77860 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:30:11.828 [main            ] INFO  StrategyDaoTest        - The following 1 profile is active: "dev"
+24-03-23.13:30:12.458 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:30:12.460 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:30:12.480 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-23.13:30:13.314 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:30:13.381 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:30:13.564 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:13.580 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:14.459 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:30:14.495 [main            ] INFO  StrategyDaoTest        - Started StrategyDaoTest in 2.938 seconds (JVM running for 3.43)
+24-03-23.13:30:14.769 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:30:14.975 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:30:15.014 [main            ] INFO  StrategyDaoTest        - 奖品ID是106
+24-03-23.13:30:15.037 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:30:15.041 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:30:57.487 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 78203 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:30:57.487 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:30:58.037 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:30:58.039 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:30:58.055 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:30:58.764 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:30:58.812 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:30:58.937 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:58.951 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:30:59.922 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:30:59.967 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.748 seconds (JVM running for 3.253)
+24-03-23.13:31:00.224 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:31:00.532 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:31:00.603 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:31:00.605 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:31:20.011 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 78373 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:31:20.012 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:31:20.619 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:31:20.621 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:31:20.648 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-23.13:31:21.381 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:31:21.456 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:31:21.618 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:31:21.627 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:31:22.470 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:31:22.510 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.818 seconds (JVM running for 3.563)
+24-03-23.13:31:22.734 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:31:22.938 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:33:04.674 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:33:04.697 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s757ms).
+24-03-23.13:33:04.842 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:33:04.864 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:38:03.938 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 81361 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:38:03.939 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:38:04.488 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:38:04.490 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:38:04.508 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:38:05.203 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:38:05.257 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:38:05.399 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:38:05.407 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:38:06.294 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:38:06.339 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.687 seconds (JVM running for 3.433)
+24-03-23.13:38:06.600 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:38:06.836 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:40:10.343 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s502ms).
+24-03-23.13:40:10.407 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:40:10.420 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:43:49.297 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 83944 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:43:49.298 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:43:49.889 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:43:49.896 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:43:49.913 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:43:50.618 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:43:50.675 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:43:50.822 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:43:50.834 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:43:51.750 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:43:51.793 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.873 seconds (JVM running for 3.581)
+24-03-23.13:43:52.044 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:43:52.279 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:45:25.353 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s73ms).
+24-03-23.13:45:25.463 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:45:25.475 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:45:28.769 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 84681 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:45:28.770 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:45:29.385 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:45:29.388 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:45:29.403 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:45:30.075 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:45:30.128 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:45:30.288 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:45:30.305 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:45:42.816 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:45:42.855 [main            ] INFO  RaffleTest             - Started RaffleTest in 14.448 seconds (JVM running for 15.036)
+24-03-23.13:45:43.088 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:45:43.293 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:45:56.842 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:45:56.861 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:46:11.790 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 85006 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:46:11.791 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:46:12.372 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:46:12.381 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:46:12.400 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:46:13.124 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:46:13.196 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:46:13.345 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:46:13.360 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:46:14.211 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:46:14.252 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.783 seconds (JVM running for 3.349)
+24-03-23.13:46:14.485 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:46:14.708 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:47:05.442 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:47:05.452 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:47:14.563 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 85478 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:47:14.569 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:47:15.242 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:47:15.254 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:47:15.275 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:47:16.006 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:47:16.080 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:47:16.231 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:47:16.254 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:47:17.338 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:47:17.375 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.131 seconds (JVM running for 3.818)
+24-03-23.13:47:17.610 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:47:17.823 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:47:17.876 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:47:17.879 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:49:41.593 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 86584 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:49:41.593 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:49:42.154 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:49:42.156 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:49:42.186 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-03-23.13:49:42.939 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:49:42.990 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:49:43.153 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:49:43.164 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:49:43.967 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:49:44.002 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.68 seconds (JVM running for 3.123)
+24-03-23.13:49:44.232 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:49:44.429 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:49:44.456 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:49:44.518 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:49:44.520 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:50:17.165 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 86854 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:50:17.165 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:50:17.779 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:50:17.781 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:50:17.808 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-23.13:50:18.507 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:50:18.560 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:50:18.701 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:50:18.721 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:50:37.174 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:50:37.248 [main            ] INFO  RaffleTest             - Started RaffleTest in 20.4 seconds (JVM running for 21.076)
+24-03-23.13:50:39.674 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87020 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:50:39.675 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:50:40.307 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:50:40.315 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:50:40.344 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-23.13:50:41.069 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:50:41.121 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:50:41.262 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:50:41.270 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:50:42.149 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:50:42.187 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.891 seconds (JVM running for 3.783)
+24-03-23.13:50:42.430 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:50:42.640 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:50:42.666 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:51:24.335 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:51:24.341 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:51:25.903 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87371 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:51:25.903 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:51:26.430 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:51:26.432 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:51:26.448 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:51:27.083 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:51:27.132 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:51:27.277 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:51:27.285 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:51:28.069 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:51:28.107 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.456 seconds (JVM running for 2.884)
+24-03-23.13:51:28.325 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:51:28.528 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:51:28.553 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:51:28.598 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:51:28.601 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:52:17.574 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87753 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:52:17.580 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:52:18.159 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:52:18.161 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:52:18.178 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:52:18.875 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:52:18.931 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:52:19.073 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:52:19.087 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:52:19.989 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:52:20.028 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.841 seconds (JVM running for 3.579)
+24-03-23.13:52:20.275 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:52:20.497 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:52:20.523 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:53:00.620 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s122ms).
+24-03-23.13:53:23.593 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:53:23.611 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:53:25.345 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 88255 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:53:25.345 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:53:25.920 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:53:25.927 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:53:25.946 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.13:53:26.625 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:53:26.680 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:53:26.836 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:53:26.848 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:53:27.740 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:53:27.781 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.735 seconds (JVM running for 3.377)
+24-03-23.13:53:28.023 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:53:28.223 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:53:28.251 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:53:28.299 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:53:28.301 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:56:06.340 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89484 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:56:06.341 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:56:06.872 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:56:06.874 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:56:06.892 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-23.13:56:07.574 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:56:07.626 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:56:07.759 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:56:07.768 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:56:08.548 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:56:08.582 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.638 seconds (JVM running for 3.116)
+24-03-23.13:56:08.816 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:56:09.022 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:56:09.047 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:56:09.093 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:56:09.095 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:57:53.648 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90298 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:57:53.649 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:57:54.268 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:57:54.275 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:57:54.302 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-23.13:57:55.074 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:57:55.191 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:57:55.390 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:57:55.399 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:57:56.472 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:57:56.514 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.23 seconds (JVM running for 3.842)
+24-03-23.13:57:56.755 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:57:56.971 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:57:57.172 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:57:57.229 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:57:57.247 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:58:23.824 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90522 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:58:23.825 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:58:24.411 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:58:24.413 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:58:24.437 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:58:25.129 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:58:25.186 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:58:25.327 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:58:25.339 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:58:26.212 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:58:26.253 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.722 seconds (JVM running for 3.366)
+24-03-23.13:58:26.599 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:58:26.824 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:58:26.876 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:58:26.917 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:58:26.919 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:58:38.207 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90628 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:58:38.207 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:58:38.804 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:58:38.806 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:58:38.829 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:58:39.546 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:58:39.604 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:58:39.747 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:58:39.756 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:58:40.670 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:58:40.711 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.771 seconds (JVM running for 3.42)
+24-03-23.13:58:41.066 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:58:41.276 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:58:41.331 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:58:51.096 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:58:51.111 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:59:13.592 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90887 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:59:13.592 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:59:14.127 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:59:14.129 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:59:14.153 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-23.13:59:14.868 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:59:14.925 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:59:15.080 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:59:15.101 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:59:16.004 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:59:16.044 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.728 seconds (JVM running for 3.384)
+24-03-23.13:59:16.422 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:59:16.644 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:59:16.699 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.13:59:16.751 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.13:59:16.771 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.13:59:43.051 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 91107 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.13:59:43.051 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.13:59:43.704 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.13:59:43.706 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.13:59:43.727 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.13:59:44.441 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.13:59:44.503 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.13:59:44.638 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:59:44.650 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.13:59:45.549 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.13:59:45.587 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.834 seconds (JVM running for 3.538)
+24-03-23.13:59:45.936 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.13:59:46.147 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.13:59:46.204 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.14:15:14.819 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.14:15:14.832 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.14:15:17.080 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 97829 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.14:15:17.081 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.14:15:17.636 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.14:15:17.638 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.14:15:17.657 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-23.14:15:18.344 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.14:15:18.418 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.14:15:18.617 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:15:18.629 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:15:19.532 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.14:15:19.569 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.802 seconds (JVM running for 3.377)
+24-03-23.14:15:19.904 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.14:15:20.131 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.14:15:20.187 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.14:15:51.687 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s556ms).
+24-03-23.14:16:53.337 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s648ms).
+24-03-23.14:17:41.854 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s515ms).
+24-03-23.14:17:41.944 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.14:17:41.966 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.14:17:47.643 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 98928 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.14:17:47.661 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.14:17:48.263 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.14:17:48.266 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.14:17:48.286 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-23.14:17:48.970 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.14:17:49.017 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.14:17:49.159 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:17:49.195 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:17:50.074 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.14:17:50.110 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.762 seconds (JVM running for 3.339)
+24-03-23.14:17:50.457 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.14:17:50.659 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.14:17:50.719 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-23.14:22:31.899 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s238ms).
+24-03-23.14:22:33.830 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-23.14:22:33.842 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-23.14:25:57.516 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 2777 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-23.14:25:57.523 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-23.14:25:58.106 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-23.14:25:58.108 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-23.14:25:58.131 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-23.14:25:58.939 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-23.14:25:59.005 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-23.14:25:59.187 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:25:59.204 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-23.14:26:00.259 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-23.14:26:00.299 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.081 seconds (JVM running for 3.723)
+24-03-23.14:26:00.662 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-23.14:26:00.887 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-23.14:26:00.942 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight

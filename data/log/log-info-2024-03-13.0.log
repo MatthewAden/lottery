@@ -1,0 +1,12 @@
+24-03-13.20:18:36.329 [main            ] INFO  Application            - Starting Application using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 55510 (/Users/matthew/Desktop/Marketing system/Marketing-system-app/target/classes started by matthew in /Users/matthew/Desktop/Marketing system)
+24-03-13.20:18:36.330 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-03-13.20:18:36.598 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[cn.matthew]' package. Please check your configuration.
+24-03-13.20:18:36.776 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-03-13.20:18:36.779 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-03-13.20:18:36.779 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-03-13.20:18:36.779 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-03-13.20:18:36.814 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-03-13.20:18:36.814 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 465 ms
+24-03-13.20:18:37.064 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-03-13.20:18:37.076 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-03-13.20:18:37.082 [main            ] INFO  Application            - Started Application in 0.995 seconds (JVM running for 1.32)

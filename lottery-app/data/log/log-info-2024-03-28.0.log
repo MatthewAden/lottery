@@ -1,0 +1,976 @@
+24-03-28.15:02:19.829 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 80366 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.15:02:19.830 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-28.15:02:20.384 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.15:02:20.386 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.15:02:20.405 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.15:02:20.849 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-03-28.15:02:20.863 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-03-28.15:02:20.875 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' in your configuration.
+
+24-03-28.15:02:20.876 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [cn.matthew.test.RaffleTest@596a7f44]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+24-03-28.15:26:24.228 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 82454 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.15:26:24.229 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.15:26:24.772 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.15:26:24.774 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.15:26:24.790 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.15:26:25.234 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-03-28.15:26:25.246 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-03-28.15:26:25.257 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' in your configuration.
+
+24-03-28.15:26:25.258 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6f4a47c7] to prepare test instance [cn.matthew.test.raffle_test@6dd1f638]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+24-03-28.15:29:30.169 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 82744 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.15:29:30.169 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.15:29:30.730 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.15:29:30.732 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.15:29:30.750 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.15:29:31.178 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+24-03-28.15:29:31.187 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-03-28.15:29:31.198 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' in your configuration.
+
+24-03-28.15:29:31.200 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@33c911a1] to prepare test instance [cn.matthew.test.raffle_test@6ed922e1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getAward': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'strategyRepository': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.matthew.infrastructure.persistent.dao.IRuleTreeLineDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 59 common frames omitted
+24-03-28.15:38:56.165 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 83538 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.15:38:56.165 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.15:38:56.699 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.15:38:56.700 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.15:38:56.718 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.15:38:57.467 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.15:38:57.511 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.15:38:57.644 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.15:38:57.653 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.15:38:58.444 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.15:38:58.477 [main            ] INFO  raffle_test            - Started raffle_test in 2.559 seconds (JVM running for 2.97)
+24-03-28.15:38:58.710 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.15:38:58.924 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.15:38:59.085 [main            ] INFO  raffle_test            - 装配策略的结果为100001
+24-03-28.15:38:59.092 [main            ] INFO  RuleBlackListFilter    - 抽奖前过滤链-黑名单过滤 userId: matthew strategyId: 100001  ruleModel: rule_blacklist
+24-03-28.15:38:59.109 [main            ] INFO  RuleBlackListFilter    - 抽奖责任链-黑名单接管 userId: matthew strategyId: 100001 ruleModel: rule_blacklist awardId: 100
+24-03-28.15:38:59.109 [main            ] INFO  RuleWeightFilter       - 抽奖前过滤链-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-28.15:38:59.113 [main            ] INFO  RuleWeightFilter       - 抽奖责任链-权重接管 userId: matthew strategyId: 100001 ruleModel: rule_weight awardId: 107
+24-03-28.15:38:59.113 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100001 107 rule_weight
+24-03-28.15:38:59.114 [main            ] INFO  raffle_test            - 抽奖结果为107
+24-03-28.15:38:59.141 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.15:38:59.155 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.15:53:11.810 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 84751 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.15:53:11.811 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.15:53:12.413 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.15:53:12.420 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.15:53:12.438 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.15:53:13.189 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.15:53:13.237 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.15:53:13.372 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.15:53:13.394 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.15:53:14.279 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.15:53:14.318 [main            ] INFO  raffle_test            - Started raffle_test in 2.803 seconds (JVM running for 3.463)
+24-03-28.15:53:39.541 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.15:53:39.751 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:02:25.517 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m15s765ms).
+24-03-28.16:02:25.558 [main            ] INFO  raffle_test            - 装配策略的结果为100001
+24-03-28.16:03:16.402 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s887ms).
+24-03-28.16:04:47.510 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s108ms).
+24-03-28.16:06:20.167 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s656ms).
+24-03-28.16:07:14.750 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s584ms).
+24-03-28.16:07:14.751 [main            ] INFO  RuleBlackListFilter    - 抽奖前过滤链-黑名单过滤 userId: matthew strategyId: 100001  ruleModel: rule_blacklist
+24-03-28.16:08:32.751 [main            ] INFO  RuleBlackListFilter    - 抽奖责任链-黑名单接管 userId: matthew strategyId: 100001 ruleModel: rule_blacklist awardId: 100
+24-03-28.16:09:26.489 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s739ms).
+24-03-28.16:09:26.489 [main            ] INFO  RuleWeightFilter       - 抽奖前过滤链-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-28.16:09:26.515 [main            ] INFO  RuleWeightFilter       - 抽奖责任链-权重接管 userId: matthew strategyId: 100001 ruleModel: rule_weight awardId: 102
+24-03-28.16:10:12.517 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s29ms).
+24-03-28.16:10:12.518 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100001 102 rule_weight
+24-03-28.16:10:12.523 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:10:12.568 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:10:12.581 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:10:20.101 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 86294 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:10:20.101 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:10:20.691 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:10:20.693 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:10:20.711 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:10:21.448 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:10:21.501 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:10:21.650 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:10:21.678 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:10:22.619 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:10:22.661 [main            ] INFO  raffle_test            - Started raffle_test in 2.854 seconds (JVM running for 3.425)
+24-03-28.16:10:49.631 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:10:49.835 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:10:49.894 [main            ] INFO  raffle_test            - 装配策略的结果为100001
+24-03-28.16:10:49.895 [main            ] INFO  RuleBlackListFilter    - 抽奖前过滤链-黑名单过滤 userId: matthew strategyId: 100001  ruleModel: rule_blacklist
+24-03-28.16:10:49.914 [main            ] INFO  RuleBlackListFilter    - 通过-抽奖责任链-黑名单 userId: matthew strategyId: 100001 ruleModel: rule_blacklist awardId: 100
+24-03-28.16:10:49.915 [main            ] INFO  RuleWeightFilter       - 抽奖前过滤链-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-28.16:11:11.625 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s790ms).
+24-03-28.16:12:25.755 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s130ms).
+24-03-28.16:15:47.622 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m21s866ms).
+24-03-28.16:15:47.622 [main            ] INFO  RuleWeightFilter       - 抽奖责任链-权重接管 userId: matthew strategyId: 100001 ruleModel: rule_weight awardId: 103
+24-03-28.16:15:47.625 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100001 103 rule_weight
+24-03-28.16:15:47.628 [main            ] INFO  raffle_test            - 抽奖结果为103
+24-03-28.16:15:47.628 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x08b4ded6, L:/127.0.0.1:61506 - R:127.0.0.1/127.0.0.1:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://127.0.0.1:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-03-28.16:15:47.669 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:15:47.685 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:17:48.390 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 86920 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:17:48.390 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:17:48.982 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:17:48.984 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:17:49.001 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:17:49.803 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:17:49.859 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:17:50.013 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:17:50.031 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:17:50.920 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:17:50.957 [main            ] INFO  raffle_test            - Started raffle_test in 2.868 seconds (JVM running for 3.462)
+24-03-28.16:17:51.313 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:17:51.516 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:17:51.569 [main            ] INFO  raffle_test            - 装配策略的结果为100001
+24-03-28.16:17:51.570 [main            ] INFO  RuleBlackListFilter    - 抽奖前过滤链-黑名单过滤 userId: matthew strategyId: 100001  ruleModel: rule_blacklist
+24-03-28.16:17:51.587 [main            ] INFO  RuleBlackListFilter    - 抽奖责任链-黑名单放行 userId: matthew strategyId: 100001 ruleModel: rule_blacklist awardId: 100
+24-03-28.16:17:51.587 [main            ] INFO  RuleWeightFilter       - 抽奖前过滤链-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-28.16:17:51.590 [main            ] INFO  RuleWeightFilter       - 抽奖责任链-权重接管 userId: matthew strategyId: 100001 ruleModel: rule_weight awardId: 104
+24-03-28.16:17:51.591 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100001 104 rule_weight
+24-03-28.16:20:46.704 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s663ms).
+24-03-28.16:21:43.782 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s603ms).
+24-03-28.16:21:43.845 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:21:43.850 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:23:51.578 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87438 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:23:51.579 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:23:52.185 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:23:52.187 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:23:52.205 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:23:52.937 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:23:52.984 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:23:53.127 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:23:53.138 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:23:54.007 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:23:54.044 [main            ] INFO  raffle_test            - Started raffle_test in 2.753 seconds (JVM running for 3.39)
+24-03-28.16:23:54.395 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:23:54.602 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:23:54.654 [main            ] INFO  raffle_test            - 装配策略的结果为100001
+24-03-28.16:23:54.654 [main            ] INFO  RuleBlackListFilter    - 抽奖前过滤链-黑名单过滤 userId: matthew strategyId: 100001  ruleModel: rule_blacklist
+24-03-28.16:23:54.668 [main            ] INFO  RuleBlackListFilter    - 抽奖责任链-黑名单放行 userId: matthew strategyId: 100001 ruleModel: rule_blacklist awardId: 100
+24-03-28.16:23:54.668 [main            ] INFO  RuleWeightFilter       - 抽奖前过滤链-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-28.16:23:54.671 [main            ] INFO  RuleWeightFilter       - 抽奖责任链-权重接管 userId: matthew strategyId: 100001 ruleModel: rule_weight awardId: 102
+24-03-28.16:23:54.672 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100001 102 rule_weight
+24-03-28.16:23:59.654 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:23:59.702 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:23:59.719 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:25:01.483 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87543 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:25:01.483 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:25:02.003 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:25:02.004 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:25:02.023 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-28.16:25:02.759 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:25:02.803 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:25:02.936 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:25:02.944 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:25:03.744 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:25:03.777 [main            ] INFO  raffle_test            - Started raffle_test in 2.556 seconds (JVM running for 2.956)
+24-03-28.16:25:03.995 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:25:04.194 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:25:04.284 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:25:04.286 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:25:30.404 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87593 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:25:30.405 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:25:30.965 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:25:30.967 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:25:30.984 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:25:31.701 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:25:31.751 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:25:31.896 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:25:31.916 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:25:32.783 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:25:32.820 [main            ] INFO  raffle_test            - Started raffle_test in 2.737 seconds (JVM running for 3.363)
+24-03-28.16:25:33.108 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:25:33.303 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:29:08.323 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m5s15ms).
+24-03-28.16:29:08.399 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:29:08.412 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:29:12.880 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 87924 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:29:12.881 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:29:13.380 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:29:13.382 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:29:13.399 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:29:14.112 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:29:14.153 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:29:14.283 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:29:14.291 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:29:15.093 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:29:15.127 [main            ] INFO  raffle_test            - Started raffle_test in 2.494 seconds (JVM running for 2.898)
+24-03-28.16:29:15.419 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:29:15.612 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:29:15.666 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:29:15.668 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:30:47.328 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 88076 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:30:47.329 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:30:47.868 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:30:47.869 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:30:47.887 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:30:48.592 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:30:48.649 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:30:48.775 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:30:48.785 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:30:49.562 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:30:49.606 [main            ] INFO  raffle_test            - Started raffle_test in 2.523 seconds (JVM running for 2.957)
+24-03-28.16:30:49.885 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:30:50.083 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:30:50.106 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:30:50.137 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:30:50.138 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:40:18.266 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 88916 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:40:18.266 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:40:18.802 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:40:18.804 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:40:18.824 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-28.16:40:19.586 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:40:19.636 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:40:19.767 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:40:19.774 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:40:20.584 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:40:20.617 [main            ] INFO  raffle_test            - Started raffle_test in 2.608 seconds (JVM running for 3.005)
+24-03-28.16:40:20.887 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:40:21.098 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:40:21.163 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:40:21.164 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:41:04.729 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 88996 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:41:04.730 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:41:05.329 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:41:05.331 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:41:05.348 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:41:06.061 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:41:06.113 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:41:06.269 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:41:06.286 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:41:07.179 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:41:07.216 [main            ] INFO  raffle_test            - Started raffle_test in 2.78 seconds (JVM running for 3.455)
+24-03-28.16:41:07.510 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:41:07.715 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:41:24.567 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s851ms).
+24-03-28.16:41:42.738 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:41:42.753 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:43:38.653 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89228 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:43:38.654 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:43:39.359 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:43:39.361 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:43:39.382 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-28.16:43:40.165 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:43:40.211 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:43:40.372 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:43:40.385 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:43:41.418 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:43:41.458 [main            ] INFO  raffle_test            - Started raffle_test in 3.124 seconds (JVM running for 3.803)
+24-03-28.16:43:47.480 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:43:47.699 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:44:27.414 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s714ms).
+24-03-28.16:44:27.530 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:44:27.539 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:44:31.591 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89309 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:44:31.591 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:44:32.225 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:44:32.229 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:44:32.256 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-28.16:44:33.052 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:44:33.103 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:44:33.254 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:44:33.284 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:44:34.237 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:44:34.280 [main            ] INFO  raffle_test            - Started raffle_test in 3.05 seconds (JVM running for 3.714)
+24-03-28.16:44:36.212 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89321 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:44:36.230 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:44:36.815 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:44:36.817 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:44:36.836 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:44:37.587 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:44:37.643 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:44:37.783 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:44:37.803 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:44:38.707 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:44:38.744 [main            ] INFO  raffle_test            - Started raffle_test in 2.854 seconds (JVM running for 3.45)
+24-03-28.16:44:39.046 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:44:39.247 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:44:39.273 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:44:39.283 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: default awardId: 102
+24-03-28.16:44:39.284 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 null
+24-03-28.16:44:39.284 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:44:39.303 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:44:39.304 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:46:10.892 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89463 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:46:10.893 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:46:11.499 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:46:11.501 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:46:11.518 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:46:12.238 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:46:12.292 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:46:12.456 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:46:12.472 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:46:13.355 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:46:13.396 [main            ] INFO  raffle_test            - Started raffle_test in 2.803 seconds (JVM running for 3.416)
+24-03-28.16:46:13.710 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:46:13.946 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:46:13.974 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:46:13.983 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: default awardId: 101
+24-03-28.16:46:13.984 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 101 null
+24-03-28.16:46:13.985 [main            ] INFO  raffle_test            - 抽奖结果为101
+24-03-28.16:46:14.007 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:46:14.009 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:46:32.223 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89498 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:46:32.224 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:46:32.770 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:46:32.777 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:46:32.794 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.16:46:33.505 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:46:33.557 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:46:33.766 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:46:33.776 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:46:34.792 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:46:34.834 [main            ] INFO  raffle_test            - Started raffle_test in 2.914 seconds (JVM running for 3.496)
+24-03-28.16:46:35.153 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:46:35.349 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:46:35.374 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:46:35.383 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: default awardId: 102
+24-03-28.16:46:36.447 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 null
+24-03-28.16:47:34.551 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:47:34.606 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:47:34.610 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:47:37.554 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89614 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:47:37.555 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:47:38.117 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:47:38.119 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:47:38.139 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:47:38.847 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:47:38.900 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:47:39.046 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:47:39.074 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:47:39.970 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:47:40.007 [main            ] INFO  raffle_test            - Started raffle_test in 2.776 seconds (JVM running for 3.368)
+24-03-28.16:47:40.279 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:47:40.478 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:47:40.506 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:47:40.517 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: default awardId: 102
+24-03-28.16:47:45.299 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 default
+24-03-28.16:47:45.306 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:47:45.348 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:47:45.367 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:47:53.039 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89636 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:47:53.040 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:47:53.595 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:47:53.597 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:47:53.613 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.16:47:54.364 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:47:54.417 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:47:54.589 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:47:54.601 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:47:55.479 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:47:55.522 [main            ] INFO  raffle_test            - Started raffle_test in 2.742 seconds (JVM running for 3.308)
+24-03-28.16:47:55.815 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:47:56.010 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:47:56.034 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:47:56.043 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: default awardId: 102
+24-03-28.16:47:56.043 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 default
+24-03-28.16:49:36.945 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s933ms).
+24-03-28.16:49:36.952 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.16:49:37.021 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:49:37.025 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:49:40.314 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 89800 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:49:40.316 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:49:40.932 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:49:40.935 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:49:40.959 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-03-28.16:49:41.812 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:49:41.887 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:49:42.080 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:49:42.106 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:49:42.992 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:49:43.034 [main            ] INFO  raffle_test            - Started raffle_test in 3.035 seconds (JVM running for 3.678)
+24-03-28.16:49:43.313 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:49:43.510 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:49:43.536 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:49:43.546 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.16:49:43.546 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.16:50:13.351 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s841ms).
+24-03-28.16:50:30.999 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:50:31.013 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:51:57.401 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90002 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:51:57.401 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:51:57.990 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:51:57.992 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:51:58.011 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:51:58.720 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:51:58.770 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:51:58.930 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:51:58.958 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:51:59.915 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:51:59.960 [main            ] INFO  raffle_test            - Started raffle_test in 2.851 seconds (JVM running for 3.495)
+24-03-28.16:52:00.250 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:52:00.458 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:52:00.483 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:52:00.493 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.16:52:00.493 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.16:52:09.911 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:52:09.923 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:52:39.885 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90064 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:52:39.886 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:52:40.462 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:52:40.464 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:52:40.480 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.16:52:41.207 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:52:41.256 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:52:41.389 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:52:41.410 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:52:42.361 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:52:42.401 [main            ] INFO  raffle_test            - Started raffle_test in 2.816 seconds (JVM running for 3.384)
+24-03-28.16:52:42.701 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:52:42.926 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:52:42.957 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:52:42.965 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.16:52:42.966 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.16:55:44.578 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m31s651ms).
+24-03-28.16:55:44.667 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:55:44.681 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:55:48.173 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90364 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:55:48.174 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:55:48.751 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:55:48.754 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:55:48.773 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.16:55:49.521 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:55:49.572 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:55:49.714 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:55:49.736 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:55:50.619 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:55:50.656 [main            ] INFO  raffle_test            - Started raffle_test in 2.773 seconds (JVM running for 3.343)
+24-03-28.16:55:50.939 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:55:51.139 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:55:51.164 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:55:51.176 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.16:55:51.176 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.16:55:56.229 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:55:56.240 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.16:56:25.319 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90423 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.16:56:25.320 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.16:56:25.910 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.16:56:25.913 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.16:56:25.929 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.16:56:26.659 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.16:56:26.713 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.16:56:26.871 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:56:26.901 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.16:56:27.807 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.16:56:27.845 [main            ] INFO  raffle_test            - Started raffle_test in 2.829 seconds (JVM running for 3.478)
+24-03-28.16:56:28.119 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.16:56:28.316 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.16:56:28.341 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.16:56:28.352 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.16:56:28.352 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.16:56:44.482 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.16:56:44.489 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:01:56.094 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 90889 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:01:56.095 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:01:56.715 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:01:56.720 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:01:56.741 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-28.17:01:57.591 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:01:57.646 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:01:57.792 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:01:57.810 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:01:58.675 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:01:58.714 [main            ] INFO  raffle_test            - Started raffle_test in 2.913 seconds (JVM running for 3.547)
+24-03-28.17:01:59.012 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:01:59.217 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:01:59.242 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:01:59.254 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:01:59.254 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:02:11.133 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:02:11.139 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:04:59.079 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 91149 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:04:59.080 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:04:59.695 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:04:59.697 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:04:59.721 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.17:05:00.432 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:05:00.484 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:05:00.635 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:05:00.666 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:05:01.665 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:05:01.712 [main            ] INFO  raffle_test            - Started raffle_test in 2.953 seconds (JVM running for 3.591)
+24-03-28.17:05:02.059 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:05:02.271 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:05:02.298 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:05:02.309 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:05:02.310 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:05:09.674 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:05:09.680 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:14:47.390 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92040 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:14:47.391 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:14:47.974 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:14:47.976 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:14:47.995 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-28.17:14:48.766 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:14:48.825 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:14:48.971 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:14:48.983 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:14:49.885 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:14:49.925 [main            ] INFO  raffle_test            - Started raffle_test in 2.819 seconds (JVM running for 3.448)
+24-03-28.17:14:50.221 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:14:50.427 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:14:50.454 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:14:50.465 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:14:50.465 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:15:14.404 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s977ms).
+24-03-28.17:19:12.969 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s564ms).
+24-03-28.17:19:13.057 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:19:13.061 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:19:16.441 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92413 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:19:16.458 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:19:16.987 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:19:16.989 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:19:17.005 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.17:19:17.741 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:19:17.801 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:19:17.944 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:19:17.966 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:19:18.826 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:19:18.864 [main            ] INFO  raffle_test            - Started raffle_test in 2.722 seconds (JVM running for 3.321)
+24-03-28.17:19:19.159 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:19:19.362 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:19:19.387 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:19:19.398 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:19:19.398 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:19:49.384 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:19:49.399 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:21:54.598 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92651 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:21:54.599 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:21:55.196 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:21:55.198 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:21:55.215 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.17:21:55.935 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:21:55.991 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:21:56.139 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:21:56.164 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:21:57.043 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:21:57.078 [main            ] INFO  raffle_test            - Started raffle_test in 2.798 seconds (JVM running for 3.436)
+24-03-28.17:21:57.425 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:21:57.622 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:21:57.647 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:21:57.659 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:21:57.659 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:22:03.090 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:22:03.101 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:22:18.365 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92692 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:22:18.383 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:22:18.971 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:22:18.973 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:22:18.993 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-28.17:22:19.711 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:22:19.759 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:22:19.896 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:22:19.913 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:22:20.804 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:22:20.842 [main            ] INFO  raffle_test            - Started raffle_test in 2.769 seconds (JVM running for 3.355)
+24-03-28.17:22:21.138 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:22:21.331 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:22:21.354 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:22:21.364 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:22:21.365 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:23:22.349 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s17ms).
+24-03-28.17:23:22.402 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:23:22.406 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:23:30.130 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92798 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:23:30.131 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:23:30.699 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:23:30.701 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:23:30.717 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-28.17:23:31.463 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:23:31.515 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:23:31.658 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:23:31.672 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:23:32.524 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:23:32.561 [main            ] INFO  raffle_test            - Started raffle_test in 2.736 seconds (JVM running for 3.339)
+24-03-28.17:23:32.844 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:23:33.056 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:23:33.080 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:23:33.095 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:23:33.096 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.17:23:49.868 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s812ms).
+24-03-28.17:24:57.588 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s720ms).
+24-03-28.17:24:57.653 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.17:24:57.666 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.17:24:59.595 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 92923 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.17:24:59.596 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.17:25:00.161 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.17:25:00.163 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.17:25:00.186 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-28.17:25:00.932 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.17:25:00.988 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.17:25:01.138 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:25:01.162 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.17:25:02.018 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.17:25:02.056 [main            ] INFO  raffle_test            - Started raffle_test in 2.783 seconds (JVM running for 3.381)
+24-03-28.17:25:02.324 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.17:25:02.517 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.17:25:02.541 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.17:25:02.550 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.17:25:02.550 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.21:45:54.072 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h20m41s808ms).
+24-03-28.21:46:04.061 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_lock, ruleDesc=限定用户已完成N次抽奖后解锁, ruleValue=1, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_stock, ruleLimitType=EQUAL, ruleLimitValue=ALLOW), RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0000
+24-03-28.21:46:04.064 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_stock, ruleDesc=库存扣减规则, ruleValue=null, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_stock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0001
+24-03-28.21:46:04.065 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_luck_award, ruleDesc=兜底奖品随机积分, ruleValue=1,100, treeNodeLineVOList=null) code:0001
+24-03-28.21:46:04.065 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 matthew 100006 101 1, 100
+24-03-28.21:46:04.067 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.21:46:04.127 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.21:46:04.143 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.21:49:33.820 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 1689 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.21:49:33.820 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.21:49:34.364 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.21:49:34.366 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.21:49:34.385 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-28.21:49:35.098 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.21:49:35.154 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.21:49:35.295 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.21:49:35.305 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.21:49:36.099 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.21:49:36.129 [main            ] INFO  raffle_test            - Started raffle_test in 2.703 seconds (JVM running for 3.224)
+24-03-28.21:49:36.408 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.21:49:36.602 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.21:49:36.626 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.21:49:36.634 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.21:49:36.635 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.21:49:36.641 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_lock, ruleDesc=限定用户已完成N次抽奖后解锁, ruleValue=1, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_stock, ruleLimitType=EQUAL, ruleLimitValue=ALLOW), RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0000
+24-03-28.21:49:36.641 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_stock, ruleDesc=库存扣减规则, ruleValue=null, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_stock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0001
+24-03-28.21:49:36.641 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_luck_award, ruleDesc=兜底奖品随机积分, ruleValue=1,100, treeNodeLineVOList=null) code:0001
+24-03-28.21:49:36.641 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 matthew 100006 101 1, 100
+24-03-28.21:49:36.642 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.21:49:36.661 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.21:49:36.663 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.21:53:52.943 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 2065 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.21:53:52.944 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.21:53:53.523 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.21:53:53.525 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.21:53:53.540 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.21:53:54.244 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.21:53:54.294 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.21:53:54.451 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.21:53:54.474 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.21:53:55.351 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.21:53:55.388 [main            ] INFO  raffle_test            - Started raffle_test in 2.741 seconds (JVM running for 3.385)
+24-03-28.21:53:55.683 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.21:53:55.918 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.21:53:55.945 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.21:53:55.956 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.21:53:55.956 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.21:55:37.794 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s876ms).
+24-03-28.21:56:42.911 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s117ms).
+24-03-28.21:56:42.917 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_lock, ruleDesc=限定用户已完成N次抽奖后解锁, ruleValue=1, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_stock, ruleLimitType=EQUAL, ruleLimitValue=ALLOW), RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0000
+24-03-28.22:07:20.177 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m37s266ms).
+24-03-28.22:07:20.179 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_stock, ruleDesc=库存扣减规则, ruleValue=null, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_stock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0001
+24-03-28.22:07:20.183 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_luck_award, ruleDesc=兜底奖品随机积分, ruleValue=1,100, treeNodeLineVOList=null) code:0001
+24-03-28.22:07:20.183 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 matthew 100006 101 1, 100
+24-03-28.22:07:20.186 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.22:07:20.235 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.22:07:20.242 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-28.22:07:22.082 [main            ] INFO  raffle_test            - Starting raffle_test using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 3169 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-28.22:07:22.082 [main            ] INFO  raffle_test            - The following 1 profile is active: "dev"
+24-03-28.22:07:22.652 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-28.22:07:22.654 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-28.22:07:22.669 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-28.22:07:23.364 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-28.22:07:23.418 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-28.22:07:23.573 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.22:07:23.602 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-28.22:07:24.475 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-28.22:07:24.514 [main            ] INFO  raffle_test            - Started raffle_test in 2.726 seconds (JVM running for 3.303)
+24-03-28.22:07:24.791 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-28.22:07:24.984 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-28.22:07:25.010 [main            ] INFO  raffle_test            - 装配策略的结果为100006
+24-03-28.22:07:25.022 [main            ] INFO  DefaultChainFilter     - 抽奖责任链-默认处理 userId: matthew strategyId: 100006 ruleModel: rule_default awardId: 102
+24-03-28.22:07:25.023 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 matthew 100006 102 rule_default
+24-03-28.22:10:50.601 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m55s617ms).
+24-03-28.22:10:50.601 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_lock, ruleDesc=限定用户已完成N次抽奖后解锁, ruleValue=1, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_stock, ruleLimitType=EQUAL, ruleLimitValue=ALLOW), RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_lock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0000
+24-03-28.22:10:50.606 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_stock, ruleDesc=库存扣减规则, ruleValue=null, treeNodeLineVOList=[RuleTreeNodeLineVO(treeId=tree_lock, ruleNodeFrom=rule_stock, ruleNodeTo=rule_luck_award, ruleLimitType=EQUAL, ruleLimitValue=TAKE_OVER)]) code:0001
+24-03-28.22:10:50.609 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:RuleTreeNodeVO(treeId=tree_lock, ruleKey=rule_luck_award, ruleDesc=兜底奖品随机积分, ruleValue=1,100, treeNodeLineVOList=null) code:0001
+24-03-28.22:10:50.609 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 matthew 100006 101 1, 100
+24-03-28.22:10:50.610 [main            ] INFO  raffle_test            - 抽奖结果为102
+24-03-28.22:10:50.651 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-28.22:10:50.665 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

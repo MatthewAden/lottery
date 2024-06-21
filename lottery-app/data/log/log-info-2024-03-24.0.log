@@ -1,0 +1,1433 @@
+24-03-24.11:05:54.017 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20h40m23s126ms).
+24-03-24.11:05:54.110 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:05:54.132 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:07:14.484 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 14296 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:07:14.508 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:07:15.223 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:07:15.226 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:07:15.245 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.11:07:16.135 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:07:16.208 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:07:16.372 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:07:16.381 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:07:17.304 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:07:17.342 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.272 seconds (JVM running for 3.949)
+24-03-24.11:07:17.703 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:07:17.916 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:07:17.975 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.11:07:35.835 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s918ms).
+24-03-24.11:07:35.984 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.11:07:35.988 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.11:07:36.027 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:07:36.043 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:08:08.112 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 14706 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:08:08.113 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:08:08.628 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:08:08.630 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:08:08.647 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.11:08:09.388 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:08:09.436 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:08:09.568 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:08:09.576 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:08:10.376 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:08:10.414 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.556 seconds (JVM running for 3.008)
+24-03-24.11:08:10.794 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:08:11.024 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:08:11.081 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.11:08:11.207 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.11:08:11.210 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.11:08:11.246 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:08:11.253 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:09:17.082 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 15206 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:09:17.083 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:09:17.614 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:09:17.616 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:09:17.639 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-24.11:09:18.368 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:09:18.427 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:09:18.561 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:18.569 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:19.385 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:09:19.417 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.747 seconds (JVM running for 3.231)
+24-03-24.11:09:19.764 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:09:19.975 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:09:20.029 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.11:09:20.129 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.11:09:20.131 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.11:09:20.151 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:09:20.157 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:09:28.242 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 15302 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:09:28.243 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:09:28.761 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:09:28.763 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:09:28.783 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+24-03-24.11:09:29.472 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:09:29.523 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:09:29.656 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:29.664 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:30.418 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:09:30.453 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.456 seconds (JVM running for 2.873)
+24-03-24.11:09:30.771 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:09:30.966 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:09:31.023 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.11:09:31.175 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.11:09:31.178 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.11:09:31.214 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:09:31.220 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:09:36.252 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 15362 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:09:36.256 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:09:36.960 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:09:36.964 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:09:36.994 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-03-24.11:09:37.813 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:09:37.861 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:09:37.996 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:38.010 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:09:38.763 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:09:38.798 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.825 seconds (JVM running for 3.248)
+24-03-24.11:09:39.155 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:09:39.366 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:09:39.424 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.11:09:39.527 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.11:09:39.529 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.11:09:39.555 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:09:39.560 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:10:33.329 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 15787 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:10:33.331 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:10:33.989 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:10:33.991 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:10:34.007 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.11:10:34.763 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:10:34.816 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:10:34.943 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:10:34.952 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:10:35.744 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:10:35.783 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.719 seconds (JVM running for 3.118)
+24-03-24.11:10:36.018 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:10:36.232 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:10:36.255 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:10:36.390 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:10:36.392 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.11:10:36.413 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:10:36.417 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:11:42.544 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 16295 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:11:42.545 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:11:43.074 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:11:43.076 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:11:43.095 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.11:11:43.781 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:11:43.834 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:11:43.976 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:11:43.986 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:11:44.771 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:11:44.806 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.663 seconds (JVM running for 3.13)
+24-03-24.11:11:45.073 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:11:45.344 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:11:45.375 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:11:45.440 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:11:45.442 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:12:26.123 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 16620 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:12:26.123 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:12:26.638 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:12:26.640 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:12:26.657 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.11:12:27.387 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:12:27.433 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:12:27.570 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:12:27.580 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:12:28.649 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:12:28.691 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.811 seconds (JVM running for 3.209)
+24-03-24.11:12:28.940 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:12:29.126 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:12:29.302 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:12:29.432 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:12:29.435 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.11:12:29.459 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:12:29.466 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:14:55.101 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 17691 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:14:55.102 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:14:55.709 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:14:55.711 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:14:55.727 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.11:14:56.415 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:14:56.471 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:14:56.602 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:14:56.616 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:14:57.480 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:14:57.516 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.713 seconds (JVM running for 3.382)
+24-03-24.11:14:57.898 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:14:58.127 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:16:20.632 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s354ms).
+24-03-24.11:16:31.341 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:16:31.530 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:16:31.533 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.11:16:31.565 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:16:31.573 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:16:45.178 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 18482 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:16:45.179 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:16:45.705 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:16:45.712 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:16:45.732 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.11:16:46.411 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:16:46.471 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:16:46.614 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:16:46.632 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:16:47.485 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:16:47.523 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.614 seconds (JVM running for 3.176)
+24-03-24.11:16:47.872 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:16:48.074 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:17:10.756 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s682ms).
+24-03-24.11:17:10.763 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:17:10.932 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:17:10.935 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.11:17:10.973 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:17:11.005 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:18:21.658 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 19181 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:18:21.659 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:18:22.286 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:18:22.288 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:18:22.303 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.11:18:22.998 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:18:23.051 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:18:23.207 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:18:23.225 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:18:24.133 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:18:24.173 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.872 seconds (JVM running for 3.533)
+24-03-24.11:18:24.559 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:18:24.789 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:18:24.845 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:user01 strategyId:100001 ruleModel:rule_weight
+24-03-24.11:18:24.970 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:18:24.972 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.11:18:25.020 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:18:25.041 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:20:39.589 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20179 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:20:39.590 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:20:40.126 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:20:40.128 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:20:40.145 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-24.11:20:40.861 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:20:40.917 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:20:41.070 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:20:41.086 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:20:41.875 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:20:41.908 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.573 seconds (JVM running for 3.026)
+24-03-24.11:20:42.238 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:20:42.442 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:20:42.520 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:20:42.523 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:21:09.457 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20393 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:21:09.458 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:21:10.031 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:21:10.034 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:21:10.067 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.11:21:10.748 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:21:10.801 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:21:10.943 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:21:10.980 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:21:11.850 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:21:11.897 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.821 seconds (JVM running for 3.388)
+24-03-24.11:21:12.243 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:21:12.441 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:21:48.059 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s618ms).
+24-03-24.11:21:48.124 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:21:48.128 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:21:52.571 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20713 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:21:52.572 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:21:53.251 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:21:53.254 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:21:53.277 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-03-24.11:21:54.101 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:21:54.159 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:21:54.284 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:21:54.299 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:21:55.273 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:21:55.310 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.079 seconds (JVM running for 3.571)
+24-03-24.11:21:55.845 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:21:56.074 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:21:56.316 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:21:56.320 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:21:56.350 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:21:56.361 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:22:01.756 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20785 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:22:01.757 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:22:02.275 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:22:02.277 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:22:02.291 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.11:22:02.968 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:22:03.019 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:22:03.141 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:22:03.157 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:22:03.906 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:22:03.939 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.418 seconds (JVM running for 2.818)
+24-03-24.11:22:04.278 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:22:04.463 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:22:04.620 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:22:04.622 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:22:04.646 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:22:04.651 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:22:08.307 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 20835 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:22:08.308 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:22:08.810 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:22:08.811 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:22:08.828 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.11:22:09.520 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:22:09.578 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:22:09.712 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:22:09.720 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:22:10.460 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:22:10.493 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.441 seconds (JVM running for 2.844)
+24-03-24.11:22:10.840 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:22:11.017 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:22:11.161 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:22:11.163 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:22:11.189 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:22:11.192 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.11:23:08.552 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 21273 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.11:23:08.553 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.11:23:09.097 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.11:23:09.099 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.11:23:09.116 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.11:23:09.846 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.11:23:09.935 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.11:23:10.093 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:23:10.100 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.11:23:10.988 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.11:23:11.019 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.72 seconds (JVM running for 3.156)
+24-03-24.11:23:11.376 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.11:23:11.571 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.11:23:11.745 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.748 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.750 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.750 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.752 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.752 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.756 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.756 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.759 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.759 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.761 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.762 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.764 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.764 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.766 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.766 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.768 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.768 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.770 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.770 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.773 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.773 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.775 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.775 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.777 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.777 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.779 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.779 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.782 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.782 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.784 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.785 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.787 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.787 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.789 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.789 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.792 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.792 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.794 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.794 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.795 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.796 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.798 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.798 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.800 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.800 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.801 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.801 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.804 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.804 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.805 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.805 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.807 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.807 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.808 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.808 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.810 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.810 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.811 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.811 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.813 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.813 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.815 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.815 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.816 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.816 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.817 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.817 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.819 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.819 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.821 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.821 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.822 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.822 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.824 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.824 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.825 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.825 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.827 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.827 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.828 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.828 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.830 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.830 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.832 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.832 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.833 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.833 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.835 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.835 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.836 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.836 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.837 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.837 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.840 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.840 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.842 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.842 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.843 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"user01"}
+24-03-24.11:23:11.843 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":101}
+24-03-24.11:23:11.869 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.11:23:11.875 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:19:38.280 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 35264 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:19:38.280 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:19:38.799 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:19:38.801 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:19:38.820 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-24.22:19:39.867 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:19:39.923 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:19:40.058 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:19:40.066 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:19:40.835 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:19:40.869 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.825 seconds (JVM running for 3.245)
+24-03-24.22:19:41.096 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:19:41.312 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:19:41.361 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:19:41.598 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:19:41.604 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:19:41.646 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:19:41.652 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:20:12.000 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 35509 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:20:12.001 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:20:12.784 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:20:12.787 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:20:12.817 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+24-03-24.22:20:13.720 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:20:13.776 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:20:13.912 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:20:13.920 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:20:14.697 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:20:14.729 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.013 seconds (JVM running for 3.453)
+24-03-24.22:20:14.953 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:20:15.163 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:20:15.201 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:20:15.325 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:20:15.327 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:20:15.351 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:20:15.364 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:30:29.170 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 39963 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:30:29.170 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:30:29.732 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:30:29.734 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:30:29.749 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.22:30:30.479 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:30:30.541 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:30:30.673 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:30:30.681 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:30:31.480 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:30:31.512 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.591 seconds (JVM running for 2.991)
+24-03-24.22:30:31.733 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:30:31.938 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:30:32.042 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:30:32.061 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:31:33.230 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 40435 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:31:33.232 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:31:34.053 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:31:34.055 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:31:34.073 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.22:31:34.908 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:31:34.967 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:31:35.090 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:31:35.098 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:31:35.994 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:31:36.027 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.227 seconds (JVM running for 3.766)
+24-03-24.22:31:36.303 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:31:36.523 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:31:36.610 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:31:36.613 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:34:33.152 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 41817 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:34:33.153 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:34:33.716 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:34:33.718 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:34:33.753 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-03-24.22:34:34.665 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:34:34.721 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:34:34.851 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:34:34.858 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:34:35.690 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:34:35.721 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.071 seconds (JVM running for 3.764)
+24-03-24.22:34:35.949 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:34:36.163 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:34:36.257 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:34:36.260 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:38:07.224 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 43374 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:38:07.224 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:38:07.756 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:38:07.758 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:38:07.773 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.22:38:08.436 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:38:08.495 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:38:08.658 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:38:08.678 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:38:09.721 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:38:09.766 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.007 seconds (JVM running for 3.491)
+24-03-24.22:38:10.105 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:38:10.361 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:38:10.486 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:38:10.493 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:40:30.275 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 44424 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:40:30.276 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:40:30.805 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:40:30.807 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:40:30.825 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-24.22:40:31.534 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:40:31.589 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:40:31.721 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:40:31.729 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:40:32.531 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:40:32.563 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.551 seconds (JVM running for 2.956)
+24-03-24.22:40:32.808 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:40:33.023 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:40:33.202 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:40:33.297 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:40:33.299 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:40:33.322 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:40:33.327 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:41:13.638 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 44738 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:41:13.639 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:41:14.284 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:41:14.287 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:41:14.316 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-03-24.22:41:15.223 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:41:15.281 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:41:15.412 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:41:15.419 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:41:16.232 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:41:16.268 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.888 seconds (JVM running for 3.356)
+24-03-24.22:41:16.611 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:41:16.805 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:41:16.880 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:41:16.975 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:41:16.978 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:41:17.004 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:41:17.012 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:42:55.974 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 45482 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:42:55.974 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:42:56.784 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:42:56.787 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:42:56.811 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-24.22:42:57.608 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:42:57.661 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:42:57.798 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:42:57.813 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:42:58.629 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:42:58.661 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.984 seconds (JVM running for 3.413)
+24-03-24.22:42:59.006 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:42:59.194 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:42:59.272 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.372 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.374 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:42:59.376 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.378 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.378 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:42:59.380 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.384 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.385 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:42:59.387 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.390 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.390 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:42:59.392 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.394 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.395 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:42:59.396 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.400 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.400 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:42:59.402 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.404 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.404 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:42:59.406 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.409 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.409 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:42:59.410 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.412 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.412 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:42:59.414 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:42:59.416 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:42:59.416 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:42:59.437 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:42:59.444 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:43:27.686 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 45720 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:43:27.687 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:43:28.192 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:43:28.194 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:43:28.209 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.22:43:28.900 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:43:28.955 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:43:29.083 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:43:29.091 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:43:29.878 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:43:29.910 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.457 seconds (JVM running for 2.866)
+24-03-24.22:43:30.264 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:43:30.454 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:43:30.528 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.620 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.622 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.624 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.628 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.628 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.630 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.632 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.632 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.634 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.636 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.636 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.638 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.640 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.640 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.641 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.643 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.643 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.644 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.646 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.646 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.648 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.650 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.650 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.651 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.653 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.653 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.654 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.656 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.656 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.658 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.660 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.660 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.661 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.663 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.663 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.665 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.667 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.667 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.668 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.670 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.670 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.671 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.673 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.673 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.675 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.677 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.677 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.679 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.681 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.681 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.683 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.684 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.684 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.686 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.687 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.687 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.689 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.691 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.691 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.693 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.694 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.694 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.697 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.698 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.698 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.700 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.702 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.702 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.704 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.706 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.706 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.708 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.710 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.710 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.711 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.713 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.713 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.715 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.717 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.717 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.718 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.720 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.720 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.722 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.724 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.724 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.726 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.729 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.729 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.730 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.731 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.731 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.733 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.734 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.734 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.736 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.738 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.738 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.739 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.741 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.741 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.743 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.745 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.745 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.747 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.748 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.748 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.752 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.755 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.755 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.760 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.762 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.762 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.764 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.766 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.766 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.768 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.770 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.770 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.772 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.774 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.774 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.775 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.777 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.777 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.778 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.780 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.780 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.782 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.784 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.784 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.785 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.787 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.787 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.788 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.790 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.790 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.791 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.793 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.793 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.795 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.797 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.797 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.798 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.800 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.800 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.801 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.803 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.803 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.804 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.806 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.806 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.807 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.809 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.809 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.811 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.813 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.813 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.814 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.816 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.816 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.818 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.820 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.820 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.821 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.823 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.823 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.825 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.826 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.826 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.828 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.830 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.830 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.831 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.833 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.833 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.835 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.837 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.838 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.840 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.842 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.842 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.845 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.847 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.848 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.849 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.850 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.850 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.852 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.854 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.854 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.855 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.856 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.856 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.857 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.858 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.858 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.859 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.861 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.861 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.862 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.863 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.863 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.864 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.865 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.865 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.866 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.868 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.868 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.869 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.871 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.871 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.872 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.873 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.873 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.875 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.876 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.876 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.877 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.878 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.878 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.879 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.882 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.882 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.883 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.884 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.884 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.885 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.887 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.887 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.888 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.890 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.890 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.891 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.892 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.892 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.893 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.895 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.895 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.896 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.897 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.897 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.898 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.899 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.899 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.900 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.902 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.902 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.903 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.904 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.904 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.905 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.906 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.906 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.907 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.909 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.909 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.910 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.911 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.911 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.912 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.913 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.913 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.914 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.916 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.916 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.917 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.918 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.918 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.919 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.920 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.920 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.921 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.922 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.922 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.923 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.924 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.924 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:43:30.925 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.926 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.926 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.927 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.928 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.928 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.929 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.930 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.930 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.931 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.932 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.932 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.933 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.934 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.934 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:43:30.935 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.936 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.936 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:43:30.936 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:43:30.937 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:43:30.937 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:43:30.957 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:43:30.962 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:44:30.715 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 46189 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:44:30.716 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:44:31.435 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:44:31.439 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:44:31.462 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.22:44:32.258 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:44:32.313 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:44:32.447 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:44:32.455 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:44:33.278 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:44:33.310 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.839 seconds (JVM running for 3.231)
+24-03-24.22:44:33.663 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:44:33.863 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:44:33.945 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.036 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.040 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:44:34.043 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.045 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.045 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:44:34.048 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.050 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.050 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:44:34.053 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.057 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.057 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:44:34.059 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.061 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.061 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:44:34.063 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.065 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.065 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:44:34.067 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.069 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.070 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:44:34.071 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.074 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.075 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:44:34.076 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.078 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.078 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:44:34.080 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:44:34.081 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:44:34.082 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:44:34.102 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:44:34.110 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:45:18.569 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 46532 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:45:18.571 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:45:19.285 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:45:19.288 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:45:19.320 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-24.22:45:20.082 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:45:20.137 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:45:20.279 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:45:20.290 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:45:21.172 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:45:21.211 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.032 seconds (JVM running for 3.828)
+24-03-24.22:45:21.589 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:45:21.801 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:45:21.882 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:21.995 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:21.998 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:45:22.001 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.004 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.004 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:45:22.006 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.010 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.011 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:45:22.015 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.019 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.019 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:45:22.023 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.029 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.029 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:45:22.031 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.034 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.034 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:45:22.037 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.040 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.040 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:45:22.043 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.046 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.046 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:45:22.048 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.050 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.050 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:45:22.052 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:45:22.054 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:45:22.054 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:45:22.075 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:45:22.094 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:47:19.953 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 47418 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:47:19.954 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:47:20.712 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:47:20.714 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:47:20.734 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.22:47:21.536 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:47:21.593 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:47:21.727 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:47:21.735 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:47:22.554 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:47:22.589 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.881 seconds (JVM running for 3.278)
+24-03-24.22:47:22.825 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:47:23.037 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:47:23.228 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:47:23.360 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:47:23.363 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:47:23.387 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:47:23.393 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:48:04.232 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 47746 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:48:04.232 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:48:04.737 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:48:04.739 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:48:04.753 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.22:48:05.562 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:48:05.612 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:48:05.744 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:48:05.752 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:48:06.665 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:48:06.697 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.705 seconds (JVM running for 3.11)
+24-03-24.22:48:07.040 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:48:07.277 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:48:07.350 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.450 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.453 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:48:07.455 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.457 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.457 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:48:07.459 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.461 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.461 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:48:07.463 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.466 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.466 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:48:07.468 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.470 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.470 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:48:07.471 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.475 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.475 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:48:07.477 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.479 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.479 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:48:07.481 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.485 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.485 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:48:07.487 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.489 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.489 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:48:07.491 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:48:07.493 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:48:07.494 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:48:07.514 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:48:07.522 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:50:44.254 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 48902 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:50:44.256 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:50:44.795 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:50:44.797 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:50:44.812 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.22:50:45.535 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:50:45.591 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:50:45.743 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:50:45.769 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:50:46.647 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:50:46.687 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.774 seconds (JVM running for 3.447)
+24-03-24.22:50:47.052 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:50:47.270 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:50:47.347 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.469 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.472 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:50:47.476 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.481 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.481 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:50:47.483 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.486 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.486 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:50:47.489 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.493 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.494 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:50:47.497 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.500 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.500 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:50:47.503 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.507 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.507 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:50:47.511 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.514 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.514 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:50:47.516 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.519 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.520 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:50:47.521 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.524 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.524 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:50:47.526 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:50:47.528 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:50:47.528 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:50:47.557 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:50:47.563 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:52:28.742 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 49654 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:52:28.743 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:52:29.289 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:52:29.297 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:52:29.315 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+24-03-24.22:52:30.045 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:52:30.113 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:52:30.320 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:52:30.343 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:52:31.328 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:52:31.373 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.905 seconds (JVM running for 3.575)
+24-03-24.22:52:31.741 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:52:31.961 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:52:40.322 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:52:56.134 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:52:56.136 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:53:30.395 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s463ms).
+24-03-24.22:54:27.546 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s863ms).
+24-03-24.22:54:27.547 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:27.563 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:54:27.563 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:54:27.566 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:27.569 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:54:27.569 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:54:27.571 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:27.581 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:54:27.581 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:54:27.590 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:27.592 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:54:27.592 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:54:27.595 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:27.598 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:54:27.598 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:54:27.605 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:54:30.722 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:54:30.750 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:54:32.677 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 50546 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:54:32.677 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:54:33.264 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:54:33.270 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:54:33.286 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.22:54:34.027 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:54:34.086 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:54:34.245 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:54:34.255 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:54:35.295 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:54:35.335 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.927 seconds (JVM running for 3.618)
+24-03-24.22:54:35.695 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:54:35.922 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:56:45.559 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s635ms).
+24-03-24.22:56:45.607 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:56:45.637 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:56:45.646 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:56:48.991 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 51545 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:56:48.992 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:56:49.723 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:56:49.735 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:56:49.766 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-03-24.22:56:50.655 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:56:50.711 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:56:50.859 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:56:50.886 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:56:51.862 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:56:51.904 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.244 seconds (JVM running for 3.862)
+24-03-24.22:56:52.191 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:56:52.436 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:58:33.842 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s300ms).
+24-03-24.22:58:33.844 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:33.928 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:58:33.941 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:58:37.664 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 52329 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:58:37.665 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:58:38.510 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:58:38.514 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:58:38.556 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-03-24.22:58:39.706 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:58:39.772 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:58:39.965 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:39.996 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:41.315 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 52360 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:58:41.320 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:58:42.113 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:58:42.224 [main            ] INFO  RaffleTest             - Started RaffleTest in 4.915 seconds (JVM running for 5.673)
+24-03-24.22:58:42.474 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:58:42.501 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:58:42.544 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-03-24.22:58:43.542 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:58:43.638 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:58:43.777 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:43.790 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:44.675 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:58:44.710 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.895 seconds (JVM running for 4.629)
+24-03-24.22:58:52.130 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 52446 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:58:52.130 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:58:52.653 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:58:52.655 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:58:52.669 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+24-03-24.22:58:53.316 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:58:53.363 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:58:53.488 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:53.497 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:58:54.362 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:58:54.402 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.68 seconds (JVM running for 3.176)
+24-03-24.22:58:54.855 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:58:55.091 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.22:58:55.176 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.292 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.296 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:58:55.301 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.305 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.305 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:58:55.308 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.311 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.311 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:58:55.313 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.317 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.317 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:58:55.321 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.324 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.324 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.22:58:55.327 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.330 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.331 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:58:55.334 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.337 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.338 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.22:58:55.340 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.342 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.342 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:58:55.344 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.346 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.347 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.22:58:55.348 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.22:58:55.352 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.22:58:55.352 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.22:58:55.380 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.22:58:55.386 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.22:59:16.511 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 52625 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.22:59:16.512 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.22:59:17.185 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.22:59:17.188 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.22:59:17.220 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-24.22:59:17.974 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.22:59:18.033 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.22:59:18.196 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:59:18.207 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.22:59:19.105 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.22:59:19.148 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.93 seconds (JVM running for 3.588)
+24-03-24.22:59:19.498 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.22:59:19.725 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:01:34.098 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m44s365ms).
+24-03-24.23:01:34.098 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:01:34.200 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:01:34.225 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.23:02:00.649 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 53830 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.23:02:00.650 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.23:02:01.390 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.23:02:01.394 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.23:02:01.418 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-03-24.23:02:02.299 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.23:02:02.352 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.23:02:02.544 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:02:02.570 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:02:03.910 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.23:02:03.965 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.693 seconds (JVM running for 4.448)
+24-03-24.23:02:04.475 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.23:02:04.745 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:02:04.823 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.036 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.040 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:02:05.045 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.053 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.053 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.23:02:05.056 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.061 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.061 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.23:02:05.065 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.070 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.070 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:02:05.073 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.077 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.077 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:02:05.080 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.084 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.084 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:02:05.087 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.090 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.090 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:02:05.093 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.098 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.098 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:02:05.101 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.104 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.104 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:02:05.106 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:02:05.111 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:02:05.111 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:02:05.150 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:02:05.169 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.23:04:25.842 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 54933 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.23:04:25.842 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.23:04:26.371 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.23:04:26.373 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.23:04:26.391 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-24.23:04:27.070 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.23:04:27.124 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.23:04:27.255 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:04:27.262 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:04:28.114 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.23:04:28.148 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.689 seconds (JVM running for 3.17)
+24-03-24.23:04:28.401 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.23:04:28.610 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:04:28.779 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.946 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.948 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:04:28.951 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.954 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.954 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:04:28.958 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.962 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.963 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:04:28.969 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.973 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.973 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:04:28.976 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.979 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.979 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.23:04:28.983 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.986 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.986 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:04:28.988 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.991 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.991 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:04:28.993 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.995 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.995 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:04:28.997 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:28.999 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:28.999 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.23:04:29.001 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:04:29.004 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:04:29.005 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.23:04:29.025 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:04:29.033 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.23:07:24.207 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 56255 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.23:07:24.213 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.23:07:24.815 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.23:07:24.818 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.23:07:24.839 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+24-03-24.23:07:25.565 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.23:07:25.623 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.23:07:25.770 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:07:25.787 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:07:26.672 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.23:07:26.708 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.803 seconds (JVM running for 3.46)
+24-03-24.23:07:27.061 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.23:07:27.276 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:07:27.329 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:09:50.842 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m53s564ms).
+24-03-24.23:09:50.997 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:09:51.001 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:09:51.008 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.345 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m52s503ms).
+24-03-24.23:17:43.353 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.353 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:17:43.365 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.368 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.368 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:17:43.370 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.373 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.374 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:17:43.376 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.379 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.379 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":105}
+24-03-24.23:17:43.381 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.385 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.385 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:17:43.393 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:43.397 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:17:43.397 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":102}
+24-03-24.23:17:43.399 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:44.470 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:17:44.487 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.23:17:48.190 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 60734 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.23:17:48.191 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.23:17:48.857 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.23:17:48.860 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.23:17:48.881 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+24-03-24.23:17:49.681 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.23:17:49.739 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.23:17:49.882 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:17:49.900 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:17:50.884 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.23:17:50.943 [main            ] INFO  RaffleTest             - Started RaffleTest in 3.052 seconds (JVM running for 3.641)
+24-03-24.23:17:51.410 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.23:17:51.670 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:17:51.730 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:17:56.119 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:17:56.136 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-03-24.23:18:54.399 [main            ] INFO  RaffleTest             - Starting RaffleTest using Java 1.8.0_402 on MatthewdeMacBook-Air.local with PID 61224 (started by matthew in /Users/matthew/Desktop/Marketing system/Marketing-system-app)
+24-03-24.23:18:54.400 [main            ] INFO  RaffleTest             - The following 1 profile is active: "dev"
+24-03-24.23:18:55.086 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-03-24.23:18:55.088 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-03-24.23:18:55.113 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+24-03-24.23:18:55.959 [main            ] INFO  Version                - Redisson 3.26.0
+24-03-24.23:18:56.027 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-03-24.23:18:56.154 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:18:56.161 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:16379
+24-03-24.23:18:56.933 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-03-24.23:18:56.968 [main            ] INFO  RaffleTest             - Started RaffleTest in 2.818 seconds (JVM running for 3.31)
+24-03-24.23:18:57.203 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-03-24.23:18:57.416 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-03-24.23:18:57.568 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.668 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.671 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.675 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.678 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.678 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.679 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.681 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.682 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:18:57.683 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.686 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.686 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.688 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.690 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.690 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.692 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.693 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.693 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.695 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.697 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.697 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.699 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.701 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.701 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":103}
+24-03-24.23:18:57.703 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.706 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.706 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":104}
+24-03-24.23:18:57.707 [main            ] INFO  RuleWeightFilter       - 规则过滤-权重范围 userId:matthew strategyId:100001 ruleModel:rule_weight
+24-03-24.23:18:57.709 [main            ] INFO  RaffleTest             - 请求参数：{"strategyId":100001,"userId":"matthew"}
+24-03-24.23:18:57.709 [main            ] INFO  RaffleTest             - 测试结果：{"awardId":107}
+24-03-24.23:18:57.727 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-03-24.23:18:57.734 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
