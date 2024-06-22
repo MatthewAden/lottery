@@ -15,5 +15,5 @@ public interface IUserBehaviorRebateOrderDao {
     void insert(UserBehaviorRebateOrderPO userBehaviorRebateOrder);
 
     @DBRouter
-    List<UserBehaviorRebateOrderPO> queryOrderByOutBusinessNo(String userId, String outBusinessNo);
+    List<UserBehaviorRebateOrderPO> queryOrderByOutBusinessNo(UserBehaviorRebateOrderPO userBehaviorRebateOrderPO);
 }

@@ -2,6 +2,7 @@ package cn.matthew.infrastructure.persistent.dao;
 
 import cn.matthew.infrastructure.persistent.po.StrategyRulePO;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @Author: matthew
@@ -10,7 +11,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface IStrategyRuleDao {
 
-    StrategyRulePO queryRule(Long strategyId, String ruleModel);
+    StrategyRulePO queryRule(@Param("strategyId") Long strategyId, @Param("ruleModel")String ruleModel);
 
 
     String queryRuleValue(StrategyRulePO strategyRulePO);

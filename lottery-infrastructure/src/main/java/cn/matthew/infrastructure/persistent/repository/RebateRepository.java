@@ -125,7 +125,10 @@ public class RebateRepository implements IRebateRepository {
 
     @Override
     public Boolean queryOrderByOutBusinessNo(String userId, String outBusinessNo) {
-        List<UserBehaviorRebateOrderPO> userBehaviorRebateOrderPOList = userBehaviorRebateOrderDao.queryOrderByOutBusinessNo(userId, outBusinessNo);
+        UserBehaviorRebateOrderPO userBehaviorRebateOrderPO = new UserBehaviorRebateOrderPO();
+        userBehaviorRebateOrderPO.setUserId(userId);
+        userBehaviorRebateOrderPO.setOutBusinessNo(outBusinessNo);
+        List<UserBehaviorRebateOrderPO> userBehaviorRebateOrderPOList = userBehaviorRebateOrderDao.queryOrderByOutBusinessNo(userBehaviorRebateOrderPO);
         return userBehaviorRebateOrderPOList != null && !userBehaviorRebateOrderPOList.isEmpty();
     }
 }

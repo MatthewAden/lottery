@@ -3,6 +3,7 @@ package cn.matthew.infrastructure.persistent.dao;
 import cn.bugstack.middleware.db.router.annotation.DBRouter;
 import cn.matthew.infrastructure.persistent.po.RaffleActivityAccountPO;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 @Mapper
 public interface IRaffleActivityAccountDao {
@@ -24,6 +25,6 @@ public interface IRaffleActivityAccountDao {
 
     void updateActivityAccountDaySurplusImageQuota(RaffleActivityAccountPO raffleActivityAccount);
     @DBRouter
-    RaffleActivityAccountPO queryActivityAccountEntity(String userId, Long activityId);
+    RaffleActivityAccountPO queryActivityAccountEntity(@Param("userId") String userId, @Param("activityId") Long activityId);
 
 }
